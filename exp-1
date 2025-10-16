@@ -8,7 +8,7 @@
  }else if (pid==0) {
  printf("This isthechildprocess.PID=%d\n",getpid());
  }else{
- printf("This istheparentprocess.PID=%d,ChildPID=%d\n",getpid(),pid);
+ printf("This is the parent process.PID=%d,ChildPID=%d\n",getpid(),pid);
  }
  return0;
  }
