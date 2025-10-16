@@ -35,8 +35,7 @@
  avgTAT/=n;
  cout<< "\nProcess\tBT\tPriority\tWT\tTAT\n";
  for(int i=0; i<n; i++) {
- cout<<p[i].pid<< "\t"<<p[i].bt<<"\t"<<p[i].priority
- <<"\t\t"<<p[i].wt<< "\t"<<p[i].tat<<endl;
+ cout<<p[i].pid<< "\t"<<p[i].bt<<"\t"<<p[i].priority <<"\t\t"<<p[i].wt<< "\t"<<p[i].tat<<endl;
  }
  cout<< "\nAverageWaitingTime= "<<avgWT;
  cout<< "\nAverageTurnaroundTime= "<<avgTAT<<endl;
